@@ -1,0 +1,18 @@
+
+# GET http://localhost:8080/message/list
+# content-type: application/json
+
+# {
+#     "sender": "mert",
+#     "receiver": "catbyte"
+# }
+
+
+POST http://localhost:8080/message
+content-type: application/json
+
+{
+    "message": "test",
+    "sender": "mert",
+    "receiver": "catbyte"
+}
